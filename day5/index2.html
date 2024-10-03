@@ -21,7 +21,10 @@
         <input type="password" id="pass" name="password" required><br><br>
 
         <label for="dob">Date of birth</label><br>
-        <input type="date" id="dob" name="dob" required ><br><br>
+        <input type="date" id="dob" name="dob" required min="2000-01-01" max="2024-12-31"><br><br>
+
+        <label for="age">Age</label>
+        <input type="Age" name="Age" id="Age" min="18" max="30"> <br><br>
 
         <label>Gender</label><br>
         <input type="radio" value="male" id="ma" name="gender">
@@ -38,6 +41,13 @@
         <label for="yes">NO</label><br><br>
 
         <input type="file" multiple accept=""><br><br>
+
+        <select name="contry" id="">
+            <option value="">Please select contry</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">Uk</option>
+        </select> <br><br>
 
 
 

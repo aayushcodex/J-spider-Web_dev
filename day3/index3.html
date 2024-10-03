@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table border="3" align="center" cellspacing="15px" cellpadding="15px">
+        <tr>
+            <td align="center">Header Column 1</td>
+            <td align="center">Header Column 2</td>
+            <td align="center">Header Column 3</td>
+            <td align="center">Header Column 4</td>
+        </tr>
+
+        <tr>
+            <td rowspan="1" align="center">Row 2 - item 1</td>
+            <td rowspan="1" align="center">Row 2 - item 2</td>
+            <td rowspan="2" align="center">Row 2 - Nested Table  1
+                <table border="2" align="center" cellspacing="10px" cellpadding="10px">
+                    <tr>
+                        <td>Row 1 Header</td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Header</td>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2 Header</td>
+                        <td>item</td>
+                    </tr>
+                    <!-- <tr>
+                        <td>Row 2 Header</td>
+                        <td>item</td>
+                    </tr> -->
+                </table>
+            </td>
+            <td rowspan="1" colspan="1" align="center">Row 2 - item 4 A second line</td>
+        </tr>
+        <tr>
+            <td rowspan="1" align="center">Row 3 - item 1</td>
+            <td rowspan="1" align="center">Row 3 - item 2</td>
+            <td rowspan="2" colspan="1" align="center">Row 3 - item 3</td>
+        </tr>
+
+        <tr>
+            <td align="center">Row 4 - item 1</td>
+            <td align="center">Row 4 - item 2</td>
+            <td align="center">Row 4 - item 3</td>
+        </tr>
+    </table>
+</body>
+</html>
