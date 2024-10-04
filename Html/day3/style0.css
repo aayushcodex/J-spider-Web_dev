@@ -1,0 +1,17 @@
+#row2 {
+    color: blue;
+    background-color: rgb(234, 144, 144);
+    font-style: oblique;
+}
+
+#row3 {
+    color: rgb(49, 47, 44);
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+.row4 {
+    color: magenta;
+    background-color: rgb(51, 3, 100);
+    font-style: italic;
+}

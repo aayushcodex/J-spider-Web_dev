@@ -1,72 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
+        <!-- <link rel="stylesheet" href="./style0.css"> -->
     <style>
-        #row2{
-            color: blue;
-            background-color: rgb(234, 144, 144);
-            font-style: oblique;
-        }
-        #row3{
-            color: rgb(49, 47, 44);
-            background-color: aquamarine;
-            font-style: italic;
-        }
-        .row4{
-            color: magenta;
-            background-color: rebeccapurple;
-            font-style: italic;
-        }
+      #row2 {
+        color: blue;
+        background-color: rgb(234, 144, 144);
+        font-style: oblique;
+      }
+      #row3 {
+        color: rgb(49, 47, 44);
+        background-color: aquamarine;
+        font-style: italic;
+      }
+      .row4 {
+        color: magenta;
+        background-color: rebeccapurple;
+        font-style: italic;
+      }
     </style>
-</head>
-<body>
-    <table border="3" align="center" cellspacing="15px" cellpadding="15px" style="background-color: blanchedalmond;">
-        <tr>
-            <td align="center" style="background-color: aqua;">Header Column 1</td>
-            <td align="center" style="background-color: blueviolet;">Header Column 2</td>
-            <td align="center" style="background-color: cornflowerblue;">Header Column 3</td>
-            <td align="center" style="background-color: goldenrod;">Header Column 4</td>
-        </tr>
+    <link rel="stylesheet" href="./style0.css">
+  </head>
+  <body>
+    <table
+      border="3"
+      align="center"
+      cellspacing="15px"
+      cellpadding="15px"
+      style="background-color: blanchedalmond"
+    >
+      <tr>
+        <td align="center" style="background-color: aqua">Header Column 1</td>
+        <td align="center" style="background-color: blueviolet">
+          Header Column 2
+        </td>
+        <td align="center" style="background-color: cornflowerblue">
+          Header Column 3
+        </td>
+        <td align="center" style="background-color: goldenrod">
+          Header Column 4
+        </td>
+      </tr>
 
-        <tr id="row2">
-            <td rowspan="1" align="center">Row 2 - item 1</td>
-            <td rowspan="1" align="center">Row 2 - item 2</td>
-            <td rowspan="2" align="center">Row 2 - Nested Table  1
-                <table border="2" align="center" cellspacing="10px" cellpadding="10px">
-                    <tr>
-                        <td>Row 1 Header</td>
-                        <td>item</td>
-                    </tr>
-                    <tr>
-                        <td>Row 2 Header</td>
-                        <td>item</td>
-                    </tr>
-                    <tr>
-                        <td>Row 2 Header</td>
-                        <td>item</td>
-                    </tr>
-                    <!-- <tr>
+      <tr id="row2">
+        <td rowspan="1" align="center">Row 2 - item 1</td>
+        <td rowspan="1" align="center">Row 2 - item 2</td>
+        <td rowspan="2" align="center">
+          Row 2 - Nested Table 1
+          <table
+            border="2"
+            align="center"
+            cellspacing="10px"
+            cellpadding="10px"
+          >
+            <tr>
+              <td>Row 1 Header</td>
+              <td>item</td>
+            </tr>
+            <tr>
+              <td>Row 2 Header</td>
+              <td>item</td>
+            </tr>
+            <tr>
+              <td>Row 2 Header</td>
+              <td>item</td>
+            </tr>
+            <!-- <tr>
                         <td>Row 2 Header</td>
                         <td>item</td>
                     </tr> -->
-                </table>
-            </td>
-            <td rowspan="1" colspan="1" align="center">Row 2 - item 4 A second line</td>
-        </tr>
-        <tr id="row3">
-            <td rowspan="1" align="center">Row 3 - item 1</td>
-            <td rowspan="1" align="center">Row 3 - item 2</td>
-            <td rowspan="2" colspan="1" align="center">Row 3 - item 3</td>
-        </tr>
+          </table>
+        </td>
+        <td rowspan="1" colspan="1" align="center">
+          Row 2 - item 4 A second line
+        </td>
+      </tr>
+      <tr id="row3">
+        <td rowspan="1" align="center">Row 3 - item 1</td>
+        <td rowspan="1" align="center">Row 3 - item 2</td>
+        <td rowspan="2" colspan="1" align="center">Row 3 - item 3</td>
+      </tr>
 
-        <tr class="row4">
-            <td align="center">Row 4 - item 1</td>
-            <td align="center">Row 4 - item 2</td>
-            <td align="center">Row 4 - item 3</td>
-        </tr>
+      <tr class="row4">
+        <td align="center">Row 4 - item 1</td>
+        <td align="center">Row 4 - item 2</td>
+        <td align="center">Row 4 - item 3</td>
+      </tr>
     </table>
-</body>
+  </body>
 </html>
