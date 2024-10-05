@@ -1,0 +1,22 @@
+/* *{
+    color: blue;
+    margin: 0;
+} */
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+#para{
+    font-size: large;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(16, 45, 46);
+    text-align: center;
+    text-decoration: none;
+}
+
+#underline{
+    text-decoration: underline;
+    border-style: dotted;
+    margin-bottom: ;
+}
+
