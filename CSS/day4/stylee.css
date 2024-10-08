@@ -1,0 +1,37 @@
+#Submit{
+    background-color: red;
+    color: white;
+}
+
+#Submit:hover{
+    background-color: blue;
+    color: black;
+}
+
+h1:hover{
+    color: burlywood;
+}
+
+#name{
+    border-color: red;
+}
+#name:focus{
+    outline: none;
+}
+
+p::first-letter{
+    color: red;
+    font-size: large;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+label::after{
+    content: '*';
+    color: red;
+}
+
+a:active{
+    color: brown;
+}
